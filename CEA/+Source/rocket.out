@@ -1,0 +1,45 @@
+
+ *******************************************************************************
+
+         NASA-LEWIS CHEMICAL EQUILIBRIUM PROGRAM CEA,  APR. 28, 1997
+                   BY  BONNIE MCBRIDE AND SANFORD GORDON
+      REFS: NASA RP-1311, PART I, 1994 AND NASA RP-1311, PART II, 1996
+
+ *******************************************************************************
+
+
+
+ prob ro eq
+ p,bar = 40.000000
+ supar = 20.000000
+ o/f = 4.000000
+ reactants
+ fuel = AL wt=0.000000
+ fuel = Magnesium wt= 100.000000
+ oxid = CO2 wt= 1
+ output siunits
+ end
+
+ OPTIONS: TP=F  HP=F  SP=F  TV=F  UV=F  SV=F  DETN=F  SHOCK=F  REFL=F  INCD=F
+ RKT=T  FROZ=F  EQL=T  IONS=F  SIUNIT=T  DEBUGF=F  SHKDBG=F  DETDBG=F  TRNSPT=F
+
+ TRACE= 0.00E+00  S/R= 0.000000E+00  H/R= 0.000000E+00  U/R= 0.000000E+00
+
+ Pc,BAR =    40.000000
+
+ Pc/P =
+
+ SUBSONIC AREA RATIOS =
+
+ SUPERSONIC AREA RATIOS =    20.0000
+
+ NFZ=  1  Mdot/Ac= 0.000000E+00  Ac/At= 0.000000E+00
+
+ DATA FOR Magnesium       NOT FOUND IN thermo.lib (REACT)
+
+ ERROR IN REACTANTS DATASET (INPUT)
+
+ FATAL ERROR IN DATASET (INPUT)
+
+
+

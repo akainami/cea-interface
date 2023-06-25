@@ -1,0 +1,1 @@
+Dönem projemin 1. konusuna ait kodu çalıştırmak için lütfen RUN.m adlı scripti kullanınız.

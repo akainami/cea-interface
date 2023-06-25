@@ -1,0 +1,10 @@
+prob ro eq
+p,bar = 40.000000 
+supar = 20.000000
+o/f = 4.000000 
+reactants
+fuel = AL wt=0.000000
+fuel = Magnesium wt= 100.000000
+oxid = CO2 wt= 1
+output siunits
+end
